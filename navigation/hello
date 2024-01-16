@@ -1,0 +1,35 @@
+{
+  "events": {
+    "eventId1": {
+      "eventName": "Event 1",
+      "inviteCode": "ABC123",
+      "startTime": 1641118800000, 
+      "pictures": {
+        "pictureId1": {
+          "userId": "userId1",
+          "imageUrl": "https://example.com/image1.jpg",
+          "timestamp": 1641122400000 
+        },
+      }
+    },
+    "eventId2": {
+    }
+  },
+  "users": {
+    "userId1": {
+      "email": "user1@example.com",
+      "displayName": "User 1",
+      "galleries": {
+        "eventId1": {
+          "eventName": "Event 1",
+          "pictures": {
+            "pictureId1": true
+          }
+        },
+      }
+    },
+    "userId2": {
+    }
+    // More users
+  }
+}
